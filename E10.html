@@ -1,0 +1,92 @@
+<!--Realice una página web que muestre las siguientes tablas:
+● Una tabla con 3 filas y 3 columnas.
+● Una tabla con 2 filas y 4 columnas.
+● Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas
+tengan 3 celdas.
+● Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
+columna 1 celda y la tercera columna 3 celdas (filas).-->
+<HTML lang="es">
+    <HEAD>
+        <meta charset="UTF-8">
+        <title>Tablas</title> 
+    
+    </HEAD>
+    <BODY>
+ 
+
+    <h1>"Tabla con 3 filas y 3 columnas."</h1> 
+    <br>
+    <table border="2" style="margin: auto;"> 
+    <tr> 
+        <td>A    </td> 
+        <td>B    </td>
+        <td>C    </td>
+    </tr>
+    <tr>
+        <td>D    </td> 
+        <td>E    </td>
+        <td>F    </td>
+    </tr>
+    <tr>
+        <td>G    </td> 
+        <td>H    </td>
+        <td>I    </td>
+    </tr>
+    </table>
+    <br>
+    <h1>"Tabla con 2 filas y 4 columnas."</h1> 
+    <br>
+    <table border="2" style="margin: auto;">
+        <tr> <!--tr crea una fila-->
+            <td>A    </td> <!--td crea una columna-->
+            <td>B    </td>
+            <td>B    </td>
+            <td>B    </td>
+        </tr>
+        <tr>
+            <td>D    </td> <!--td crea una columna-->
+            <td>E    </td>
+            <td>B    </td>
+            <td>B    </td>
+        </tr>
+        </table>
+        <br>
+        <h1>"Tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas tengan 3 celdas.</h1> 
+        <br>
+        <table border="2" style="margin: auto;"> 
+        <tr> 
+            <td colspan="3">A fdsfsdf   </td> 
+        </tr>
+        <tr> 
+            <td>A    </td>
+            <td>A    </td> 
+            <td>A    </td>  
+        </tr>
+        <tr> 
+            <td>A    </td>
+            <td>A    </td> 
+            <td>A    </td> 
+        </tr>
+        </table>
+        <br>
+        <h1>"Tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda columna 1 celda y la tercera columna 3 celdas (filas)"</h1> 
+        <br>
+        <table border="2" style="margin: auto;">
+            
+            <tr> 
+                <td rowspan="2" >A</td> 
+                <td rowspan="4" >B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td rowspan="2" >D</td> 
+            </tr>
+            <tr>
+                <td rowspan="2" >F</td>   
+            </tr>
+            <tr>
+                <td>F    </td>      
+            </tr>
+        </table>
+    </BODY>
+</HTML>
